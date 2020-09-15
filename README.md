@@ -1,2 +1,6 @@
 # furry-search
- A package to help find the source of furry art
+
+## Usage
+	const search = require("furry-search");
+	
+	console.log(search(put url here));
