@@ -1,4 +1,4 @@
-const snekfetch = require('snekfetch');
+const fetch = require('node-fetch')
 
 /**
  * 
@@ -7,7 +7,7 @@ const snekfetch = require('snekfetch');
  */
 async function search(url) {
     try {
-        const { body } = await snekfetch
+        const { body } = await fetch
             .get(`https://saucenao.com/search.php?db=999&output_type=2&testmode=1&numres=16&url=${url}`)
         let simi = Number(body.results[0].header.similarity);
         if(simi < 80){

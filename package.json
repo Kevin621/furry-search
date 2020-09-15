@@ -18,7 +18,7 @@
   "author": "Kevin",
   "license": "MIT",
   "dependencies": {
-    "snekfetch": "^4.0.4"
+    "node-fetch": "^2.6.1"
   },
   "repository": "https://github.com/Kevin621/furry-search",
   "readme": "README.md",
