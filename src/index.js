@@ -16,13 +16,14 @@ async function search(url) {
         const simil = Number(body.results[0].header.similarity);
         const link = body.results[0].data.source;
         const artist = body.results[0].data.creator;
-        
-        return console.log(simil, link, artist)
+        return console.log(`Made by: ${artist}
+Souce: ${link}`)
     } catch(err) {
         return console.log(err);
     }
+
 };
 module.exports = search;
 
+console.log(search("https://media.discordapp.net/attachments/730477809675534349/754894623515607080/IMG_20200912_192433_986.jpg"))
 
-console.log(search("https://cdn.discordapp.com/attachments/730477809675534349/754894623515607080/IMG_20200912_192433_986.jpg"))
