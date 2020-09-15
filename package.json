@@ -1,0 +1,23 @@
+{
+  "name": "furry-search",
+  "version": "0.0.1",
+  "description": "A furry revers image searcher",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "furry",
+    "npm",
+    "search",
+    "image",
+    "yiff",
+    "art"
+  ],
+  "author": "Kevin",
+  "license": "MIT",
+  "dependencies": {
+    "snekfetch": "^4.0.4"
+  }
+}
