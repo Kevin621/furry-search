@@ -1,7 +1,7 @@
 {
   "name": "furry-search",
   "version": "0.0.1",
-  "description": "A furry revers image searcher",
+  "description": "A furry reverse image searcher",
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -19,5 +19,8 @@
   "license": "MIT",
   "dependencies": {
     "snekfetch": "^4.0.4"
-  }
+  },
+  "repository": "https://github.com/Kevin621/furry-search",
+  "readme": "README.md",
+  "homepage": "https://github.com/Kevin621/furry-search/blob/master/README.md"
 }
