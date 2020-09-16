@@ -18,7 +18,11 @@
   "author": "Kevin",
   "license": "MIT",
   "dependencies": {
-    "node-fetch": "^2.6.1"
+    "@types/node": "^14.10.2",
+    "awesome-typescript-loader": "^5.2.1",
+    "node-fetch": "^2.6.1",
+    "source-map-loader": "^1.1.0",
+    "stringify": "^5.2.0"
   },
   "repository": "https://github.com/Kevin621/furry-search",
   "readme": "README.md",
