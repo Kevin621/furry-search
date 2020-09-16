@@ -22,7 +22,5 @@ ext_urls: ${ext_urls}`)
 }
 module.exports = search; 
 
-console.log(search('https://media.discordapp.net/attachments/730477809675534349/754894623515607080/IMG_20200912_192433_986.jpg'))
-
 
 

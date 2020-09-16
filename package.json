@@ -2,7 +2,7 @@
   "name": "furry-search",
   "version": "0.0.5",
   "description": "A furry reverse image searcher",
-  "main": "src/index.ts",
+  "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
